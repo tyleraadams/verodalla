@@ -1,0 +1,102 @@
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	font-family: 'Sorts Mill Goudy', serif;
+	color:#76666a;
+}
+
+.clearfix {
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+.col{
+	width:30%;
+	float:left;
+	display:block;
+}
+nav{
+	background: #201e1f;
+	height:100px;
+}
+
+.logo{
+	background: url('../public/Logo-Verodalla-Noir.png') no-repeat center center;
+	background-size: contain;
+	width: 450px;
+	height: 300px;
+	margin-top:100px;
+	float:left;
+}
+
+.social_media{
+	float:right;
+	width:175px;
+	display:inline-block;
+	padding-top:33px;
+}
+
+.social_media div{
+	display:inline-block;
+	margin-right:10px;
+}
+
+.twitter{
+	background: url('../public/twitter.png') no-repeat center center;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+}
+
+.facebook{
+	background: url('../public/facebook.png') no-repeat center center;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+}
+
+.instagram{
+	background: url('../public/instagram.png') no-repeat center center;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+}
+
+.cover_photo{
+	background: url('../public/inner_journey.jpg') no-repeat center 43%;
+	background-size: cover;
+	width: 100%;
+	height: 1000px;
+	/*position:absolute;*/
+	background-attachment:fixed;	
+}
+
+nav .logo{
+	background: url('../public/vero_logo.png') no-repeat center center;
+	width:150px;
+	height:100px;
+	background-size:contain;
+	margin-top: 0;
+	/*position:relative;*/
+}
+
+.inner_journey{
+	background: url('../public/inner_journey.jpg') no-repeat center center;
+	width:300px;
+	height:200px;
+	background-size:contain;
+}
+
+.gallery_item{
+	float:left;
+	margin:30px 10px;
+}
+
+
+.main_gallery{
+	height:700px;
+	width:1100px;
+	margin:50px auto;
+}
